@@ -91,4 +91,13 @@
     
 }
 
+- (NSInteger)getCount{
+    return [playerList count];
+}
+
+- (NamePlayer*)getNamePlayerAt:(int)index{
+    
+    return [playerList objectAtIndex:index];
+}
+
 @end

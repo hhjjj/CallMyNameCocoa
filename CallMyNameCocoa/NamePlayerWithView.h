@@ -7,7 +7,11 @@
 //
 
 #import <Cocoa/Cocoa.h>
+@class AppController;
 
 @interface NamePlayerWithView : NSView
+
+@property AppController *controller;
+@property (strong) NSMutableArray *drawList;
 
 @end

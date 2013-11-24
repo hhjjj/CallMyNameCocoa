@@ -8,9 +8,11 @@
 
 #import <Cocoa/Cocoa.h>
 
+@class NamePlayerWithView;
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
+@property (strong) NamePlayerWithView * nameView;
 @property (assign) IBOutlet NSWindow *window;
 
 @end

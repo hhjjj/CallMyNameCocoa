@@ -8,14 +8,19 @@
 
 #import <Foundation/Foundation.h>
 
-//@class NamePlayer;
+@class NamePlayer;
 
 @interface AppController : NSObject  {
     NSURL *folder;
     NSMutableArray *playerList;
 }
 
+@property NSMutableArray *playerList;
+
 - (IBAction)selectFolder:(id)sender;
 - (IBAction)playAll:(id)sender;
+
+- (NSInteger)getCount;
+- (NamePlayer*)getNamePlayerAt:(int)index;
 
 @end
