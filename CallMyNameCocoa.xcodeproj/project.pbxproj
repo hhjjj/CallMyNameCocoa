@@ -22,6 +22,7 @@
 		F1C4C7DA1841C9E800A988E5 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1C4C7D91841C9E800A988E5 /* CoreAudio.framework */; };
 		F1C4C7DD1841CDB200A988E5 /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1C4C7DC1841CDB200A988E5 /* AppController.m */; };
 		F1C4C7E01841DB0300A988E5 /* NamePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F1C4C7DF1841DB0300A988E5 /* NamePlayer.m */; };
+		F1C4C7FB1842262000A988E5 /* NamePlayerWithView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1C4C7FA1842262000A988E5 /* NamePlayerWithView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,8 @@
 		F1C4C7DC1841CDB200A988E5 /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
 		F1C4C7DE1841DB0300A988E5 /* NamePlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NamePlayer.h; sourceTree = "<group>"; };
 		F1C4C7DF1841DB0300A988E5 /* NamePlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NamePlayer.m; sourceTree = "<group>"; };
+		F1C4C7F91842262000A988E5 /* NamePlayerWithView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NamePlayerWithView.h; sourceTree = "<group>"; };
+		F1C4C7FA1842262000A988E5 /* NamePlayerWithView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NamePlayerWithView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +141,8 @@
 				F1C4C7DC1841CDB200A988E5 /* AppController.m */,
 				F1C4C7DE1841DB0300A988E5 /* NamePlayer.h */,
 				F1C4C7DF1841DB0300A988E5 /* NamePlayer.m */,
+				F1C4C7F91842262000A988E5 /* NamePlayerWithView.h */,
+				F1C4C7FA1842262000A988E5 /* NamePlayerWithView.m */,
 			);
 			path = CallMyNameCocoa;
 			sourceTree = "<group>";
@@ -270,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1C4C7FB1842262000A988E5 /* NamePlayerWithView.m in Sources */,
 				F1C4C7B71841C8D400A988E5 /* AppDelegate.m in Sources */,
 				F1C4C7E01841DB0300A988E5 /* NamePlayer.m in Sources */,
 				F1C4C7DD1841CDB200A988E5 /* AppController.m in Sources */,
